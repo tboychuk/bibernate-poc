@@ -1,13 +1,13 @@
 package com.bobocode.demo.entity;
 
-import com.bobocode.bibernate.annotation.Column;
-import com.bobocode.bibernate.annotation.Entity;
-import com.bobocode.bibernate.annotation.Id;
-import com.bobocode.bibernate.annotation.Table;
+import com.bobocode.bibernate.annotation.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.annotations.DynamicUpdate;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 @Table("participants")
@@ -26,7 +26,13 @@ public class Participant {
 
     private String company;
 
+    private String position;
+
     private Integer yearsOfExperience;
 
+    @Column(value = "created_at", updatable = false)
     private LocalDateTime createdAt;
+
+    @OneToMany(mappedBy = "participant")
+    private List<Skill> skills = new ArrayList<>();
 }

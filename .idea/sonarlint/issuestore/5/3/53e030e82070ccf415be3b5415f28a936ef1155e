@@ -1,8 +1,2 @@
 
-	java:S1122"FDefine and throw a dedicated exception instead of using a generic one.(Çı½ßşÿÿÿÿ8ÙÑŠôú1J$ba88f423-0b8d-4ec4-9862-a7aebf572265
-	java:S112J"FDefine and throw a dedicated exception instead of using a generic one.(Öˆ«ÿüÿÿÿÿ8ÚÑŠôú1J$8fa8326f-ae07-418f-b158-bae02720077d
-~	java:S125+"<This block of commented-out lines of code should be removed.(‰ÏÛ8Ñ®‘ôú1J$68e0846b-5270-4c94-9e87-2d5979cf2a3f
-|
-java:S11725"9Remove these unused method parameters "entityType", "rs".(É„¿À8·õôú1J$d0b82316-b55c-4bff-b360-fd6817f4ad36
-‰
-java:S1128"ARemove this unused import 'com.bobocode.demo.entity.Participant'.(âõ½Ãÿÿÿÿÿ8Ö®‘ôú1J$bce60e6f-d91a-4e9d-a610-bfed393ac73e
+	java:S112&"FDefine and throw a dedicated exception instead of using a generic one.(Çı½ßşÿÿÿÿ8ŸßÄôú1J$157abea9-ef6d-41ac-9b80-64a1cea873bb

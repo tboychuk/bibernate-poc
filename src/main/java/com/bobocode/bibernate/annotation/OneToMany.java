@@ -7,8 +7,6 @@ import java.lang.annotation.Target;
 
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
-public @interface Column {
-    String value();
-
-    boolean updatable() default true;
+public @interface OneToMany {
+    String mappedBy();    
 }
